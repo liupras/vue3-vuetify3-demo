@@ -10,7 +10,7 @@
     <v-spacer></v-spacer>
 
     <v-btn icon @click="changeTheme">
-      <v-icon  :icon="darkTheme ? 'mdi-weather-night' : 'mdi-weather-sunny'"></v-icon>
+      <v-icon  :icon="myTheme ? 'mdi-weather-night' : 'mdi-weather-sunny'"></v-icon>
     </v-btn>
 
     <v-menu transition="scale-transition">
@@ -52,14 +52,14 @@ const notifications = [
   { title: "消息4" ,icon:"mdi-email",color:"yellow" },
 ];
 
-const darkTheme = ref(true)
+const myTheme = ref(true)
 
 const theme = useTheme();
 
 // 切换主题
 function changeTheme() {
-  darkTheme.value = !darkTheme.value;
-  theme.global.name.value = darkTheme.value ? "dark" : "light";
+  myTheme.value = !myTheme.value;
+  theme.global.name.value = myTheme.value ? "dark" : "light";
 }
 
 </script>
