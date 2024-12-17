@@ -5,16 +5,27 @@
 
 ### 简单的相册
 
+这是使用`vuetify3`可以开发的一个简单的相册，通过菜单可以控制相册以彩色或者黑白方式显示。  
+在这个例子中，我们主要使用 `抽屉式导航（Navigation drawers）` 做导航，使用`栅格（Grids）`显示相册图片。
+
 ![Images控件](gallery/demo.jpg) 
 
 代码见`gallery`文件夹。
 
+### 经典的登录
+
+这是使用`vuetify3`可以开发的一个登录实例。  
+它包含了一个经典的包含系统消息、登录按钮、更换主题按钮的工具栏（toolbar）、轮播(carousel)和登录表单控件。 
+
+![Images控件](login/demo.jpg) 
+
+代码见`login`文件夹。
 
 ## 安装教程
 
 1. 安装依赖环境
-- 后端
-进入`gallery`目录后，执行下面的命令：
+
+使用VS Code，进入`gallery`或者`login`目录后，执行下面的命令：
 ```cmd
 npm install
 pnpm dev
