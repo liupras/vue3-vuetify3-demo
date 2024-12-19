@@ -1,14 +1,15 @@
 # Veutify3 + Vue3 Getting Started Tutorial
 
 ## Description
-Examples of programming using the vuetify3 framework based on vue3. 
+Examples of programming using the vuetify3 framework based on vue3.   
+Each folder contains one instance.
 
 ### Simple photo album
 
 This is a simple photo album that can be developed using `vuetify3`. The menu can be used to control the album to be displayed in color or gray.
 In this example, we mainly use `Navigation drawers` for navigation and `Grids` to display album images.
 
-![Images component](gallery/demo.jpg) 
+![photo album](gallery/demo.gif) 
 
 Code can be found in the `gallery` folder.
 
@@ -17,9 +18,17 @@ Code can be found in the `gallery` folder.
 This is a login example that can be developed using `vuetify3`.
 It contains a classic toolbar with system messages, a login button, a theme change button, a carousel, and a login form control.
 
-![Images component](login/demo.jpg) 
+![Classic Login](login/demo.gif) 
 
 Code can be found in the `login` folder.
+
+### Todo management
+This is a to-do management example that can be developed using `vuetify3`.  
+It mainly includes the task overview, my project, and my team. The task overview lists all tasks in a list, where you can add tasks and sort them.
+
+![Todo management](todo/demo.gif) 
+
+Code can be found in the `todo` folder.
 
 ## Installation
 
