@@ -5,12 +5,12 @@ import { getFirestore,collection,getDocs,addDoc } from 'firebase/firestore/lite'
 
 // TODO: Replace the following with your app's Firebase project configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCk7g-hBPBlAQPTLjUfvPwbjbagjDNx3aM",
+    apiKey: "<修改为您的apiKey>",
     authDomain: "test-e8417.firebaseapp.com",
     projectId: "test-e8417",
     storageBucket: "test-e8417.firebasestorage.app",
     messagingSenderId: "264278535120",
-    appId: "1:264278535120:web:f977fe92a434c343e167d5"
+    appId: "<修改为您的apiId>"
 };
 
 // Initialize Firebase
